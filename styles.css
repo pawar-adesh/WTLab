@@ -1,0 +1,77 @@
+body{
+	font-family:sans-serif, italic;
+}
+
+.navbar{
+	margin:0;
+	position:absolute;
+	top:0;
+	height: 40px;
+	width:100%;
+}
+
+.nav-list ul{
+	list-style:none;
+}
+.nav-list ul li{
+	display:inline-block;
+	margin-right:20px;
+}
+.nav-list ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:large;
+	font-weight:bold;
+}
+
+.active{
+	border-bottom:2px green solid;
+}
+.container{
+	height:600px;
+	width:100%;
+	margin:0;
+	background-image:url("C:/Users/pccoe/Desktop/TECOB267/bgimg.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.container .content-head{
+	margin:4px;
+}
+.container .content-head .content-left{
+	float:left;
+}
+.container .content-head .content-left p{
+	position:absolute;
+	top:40%;
+	left:35%;
+	text-align:center;
+	color:white;
+	font-size:40px;
+	font-weight:bold;
+	text-shadow: 2px 2px #ff0000;
+	padding:6px;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	box-shadow: 5px 10px whitesmoke;
+}
+marquee{
+	position:absolute;
+	left:0;
+	font-size:20px;
+	color:white;
+	position:absolute;
+	top:60%;
+}
+.reserve{
+	paddig:3px;
+	color:white;
+	background-color:#008CBA;
+	border-radius:3px;
+	position:absolute;
+	left:45%;
+	font-size:20px;
+	top:60%;
+}

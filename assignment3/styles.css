@@ -1,0 +1,12 @@
+employees{
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    background-color: rgb(69, 243, 69);
+}
+id, firstname, lastname, email{
+    font-family: popins;
+    display: block;
+    font-size: large;
+    color: black;
+}
